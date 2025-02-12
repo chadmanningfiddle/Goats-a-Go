@@ -5,7 +5,7 @@ import PrivateLessons from './pages/PrivateLessons';
 import AdminDashboard from './pages/AdminDashboard';
 import FiddlersLog from './pages/FiddlersLog';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -17,5 +17,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
