@@ -13,8 +13,7 @@ app.use(session({
   saveUninitialized: true
 }));
 
-// Routes
-app.use('/api', require('./routes'));
+app.use('/api', require('./routes.cjs'));
 
 // Serve React build
 app.use(express.static('public'));
