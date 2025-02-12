@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import './style.css'; // Make sure this file exists!
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <h1 style={{ color: 'red', textAlign: 'center' }}>✅ Minimal React is Working!</h1>
 );
