@@ -2,7 +2,7 @@
   "name": "goats-a-go",
   "version": "1.0.0",
   "description": "Fiddle Shack Website",
-  "type": "module",
+  "commonjs": "",
   "main": "server/app.js",
   "scripts": {
     "dev": "concurrently \"vite\" \"node server/app.js\"",
