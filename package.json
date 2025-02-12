@@ -1,13 +1,29 @@
 {
+  "name": "goats-a-go",
+  "version": "1.0.0",
+  "description": "Fiddle Shack Website",
+  "type": "module",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/app.js\"",
+    "build": "vite build",
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10"
+  },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "tailwindcss": "^3.4.17",
     "postcss": "^8.5.2",
-    "tailwindcss": "^4.0.6"
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2"
   }
-}
-
-"scripts": {
-  "dev": "concurrently \"vite\" \"node server/app.js\"",
-  "build": "vite build",
-  "start": "node server/app.js"
 }
